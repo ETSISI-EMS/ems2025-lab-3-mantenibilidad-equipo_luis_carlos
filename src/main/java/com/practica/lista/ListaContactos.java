@@ -29,7 +29,6 @@ public class ListaContactos {
 				 * Insertamos en la lista de coordenadas
 				 */
 				insertarLista(aux, p);
-
 			}else if(aux.getFecha().compareTo(p.getFechaPosicion())<0) {
 				ant = aux;
 				aux=aux.getSiguiente();
